@@ -75,14 +75,14 @@ $applicationstatus = $row4["applicationstatus"]
     }
     // include('../includes/headerStudent.html');
     ?>
-    
-    <h1 style="text-align: center; margin-top: 50px;">View Application of Internship Session</h1>
+
+      <div class="container" style="padding-top: 183px; margin-bottom: 48px;">
+      <h1 style="text-align: center;">View Application of Internship Session</h1>
       <label style="display: block; text-align: end;">
         <b>Date :</b>
         <input id="remove-border" style="font-size:15px; font-weight: bold;" type="text" name="applicationdate" value="<?php date_default_timezone_set("Asia/Kuala_Lumpur");																																echo date("d-M-Y"); ?>" readonly />
       </label>
-
-    <div class="container my-5">
+      <br><br>
         <h2>Personal Information</h2>
         <form method="post" action="add_application.php">
             <div class="row mb-3">
@@ -182,11 +182,9 @@ $applicationstatus = $row4["applicationstatus"]
                 </div>
             </div>
             
-            </div>
-
             <?php if ($userlevel == 3): ?>
                 
-                <div class="row mb-3">
+                <div>
                     <div class="offset-sm-3 col-sm-3 d-grid">
                         <?php if ($applicationstatus == 'Approved' || $applicationstatus == 'Rejected'): ?>
                             <a href="report_approved.php" class="btn btn-primary">Return</a>
@@ -196,13 +194,13 @@ $applicationstatus = $row4["applicationstatus"]
                     </div>
                     </div>
                 <?php elseif ($userlevel == 1): ?>
-                    <div class="row mb-3">
+                    <div>
                     <div class="offset-sm-3 col-sm-3 d-grid">
                         <a href="../Coordinator/application_list.php" class="btn btn-primary">Return</a>
                     </div>
                     </div>
                 <?php elseif ( $userlevel == 2): ?>
-                    <div class="row mb-3">
+                    <div>
                     <div class="offset-sm-3 col-sm-3 d-grid">
                     <?php if ($column == true): ?>
                             <a href="../Coordinator/coordinator_page.php" class="btn btn-primary">Return</a>
@@ -213,6 +211,9 @@ $applicationstatus = $row4["applicationstatus"]
                     </div>
 
             <?php endif; ?>
+
+            </div>
+
         </form>
     </div>
     <?php

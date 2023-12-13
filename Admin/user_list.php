@@ -15,7 +15,7 @@
     <?php
     include('../includes/headerAdmin.html');
     ?>
-    <div class="container my-5">
+    <div class="container" style="padding-top: 183px; margin-bottom: 48px;">
         <h2 style="text-align:center;"><b>User List</b></h2>
         <p style="text-align:center;"><i><b>Accessible to Admins</b></i></p>
         <a class="btn btn-primary" href="user_form.php" role="button">Add User</a>

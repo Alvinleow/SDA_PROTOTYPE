@@ -21,6 +21,8 @@
         <b><a href="sorted_pending_list.php"><label class="co-homepage-btn">View Sorted Pending List</label></a></b>
     </div>
 
+    <br> <br>
+
     <form action="search_student.php" method="POST">
         <div class="co-homepage-table">
             <span class="profile">Search Student's Profile:</span>

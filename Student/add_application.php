@@ -79,10 +79,8 @@
 
 	<!-- <br> -->
 	<!-- Need to add UI for this updated page and error checking -->
-	<!-- <a href="student_application_list.php">Click here to see the updated application list</a> -->
-  <?php
-    include('../includes/footer.html');
-    ?>
+  <BR><BR><BR><BR><BR><BR>
+	<a href="student_application_list.php">Click here to see the updated application list</a>
 </body>
 
 </html>

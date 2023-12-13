@@ -3,6 +3,7 @@ body {
     justify-content: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0px;
 }
 
 .login-page {
@@ -26,15 +27,34 @@ body {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
+.header {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+
+.header-bar {
+    height: 35px;
+    background-color: #5217f5;
+}
+
 .container-logo {
-    /* display: flex; */
-    text-align: center;
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container-logo b {
+	color: #5d001d;
+	font-weight: 1000;
 }
 
 .outercontainer-nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: white;
 }
 
 .dropdown img {
@@ -43,6 +63,10 @@ body {
     float: left;
     padding-top: 15px;
     padding-right: 10px;
+}
+
+.industry-background {
+    padding-top: 135px;
 }
 
 p.title {
@@ -82,29 +106,17 @@ input[type=submit].button-training,
 }
 
 /*added*/
-.coordinator-links {
+.coordinator-links, .admin-links {
     border: 2px solid black;
     border-radius: 10px;
     background-color: rgba(223, 242, 255, 0.3);
     z-index: -1;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin: 30px 50px 50px 100px;
-    width: fit-content;
-}
-
-.admin-links {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-around;
-    border: 2px solid black;
-    border-radius: 10px;
-    background-color: rgba(223, 242, 255, 0.3);
-    z-index: -1;
-    margin-top: 20px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
+    align-self: center;
+}   
 
 /*added*/
 .coordinator-viewapp-links{
@@ -256,11 +268,10 @@ a {
     text-decoration: none;
 }
 
-/*added this*/
 #img-logo {
     display: flex;
-    margin: 15px 25px 15px 0px;
-    width: 400px;
+    margin: 15px 25px 15px 25px;
+    height: 70px;
 }
 
 #img-logo1 {
@@ -286,14 +297,22 @@ a {
 }
 
 nav.stroke {
-    background-image: linear-gradient(135deg, #d6d6d6 10%, #868686 100%);
     width: 100%;
-    padding: 5px;
 }
 
 nav ul {
     list-style: none;
     text-align: center;
+    padding-inline-start: 0px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav li {
+    margin-left: 40px;
 }
 
 nav ul li {
@@ -473,6 +492,7 @@ nav.stroke ul li a:hover:after {
 .dropdown {
     position: relative;
     display: inline-block;
+    margin-right: 20px;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -602,8 +622,9 @@ table.tablePracticalTraining {
     width: 100%;
 }
 
-.co-homepage-table{ /*added*/
-    margin: 0px 0px 5% 200px;
+.co-homepage-table{
+    text-align: left;
+    margin-left: 100px;
     line-height: 50px;
 }
 

@@ -35,13 +35,10 @@ mysqli_close($conn);
 
 <body>
     
-    <BR><BR>
+    <BR><BR><BR><BR><BR><BR>
     <section id="userlist">
     <a href="user_list.php" id="userlist">Click here to list the guests</a>
     </section>
-    <?php
-    include('../includes/footer.html');
-    ?>
 </body>
     
 </html>

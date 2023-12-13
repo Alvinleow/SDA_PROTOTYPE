@@ -16,6 +16,8 @@
         <img src="../img/background-img3.jpg" style="width: 100%;">
     </div>
 
+    <br><br>
+
     <form action="search_user.php" method="post">
         <div class="admin-links">
             <b> <a href="user_list.php"><label class="ad-homepage-btn">View All Users</label></a>
@@ -23,7 +25,9 @@
             </b>
         </div>
     </form>
+
     <br> <br>
+    
     <form action="search_user.php" method="POST">
         <div class="co-homepage-table">
             <span class="profile">Search User:</span>

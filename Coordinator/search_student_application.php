@@ -15,7 +15,7 @@
     <?php
     include('../includes/headerCoordinator.html');
     ?>
-    <div class="container my-5">
+    <div class="container" style="padding-top: 183px; margin-bottom: 48px;">
         <h2 style="text-align:center; font-weight:bold">Search Application List</h2>
         <p style="text-align:center; font-weight:bold"><i>Accessible to Coordinators</i></p>
         <!-- <a class="btn btn-primary" href="user_form.php" role="button">Add User</a> -->

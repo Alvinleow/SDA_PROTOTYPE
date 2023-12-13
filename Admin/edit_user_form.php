@@ -39,7 +39,7 @@ if (mysqli_num_rows($tab1) == 1) {
     <?php
     include('../includes/headerAdmin.html');
     ?>
-    <div class="container my-5">
+    <div class="container" style="padding-top: 183px; margin-bottom: 48px;">
         <h2 style="text-align:center; font-weight:bold;">Edit User</h2>
         <form method="post" action="update_user.php">
             <input type="hidden" name="id" value="<?php echo $id; ?>"> <!-- hidden element -->

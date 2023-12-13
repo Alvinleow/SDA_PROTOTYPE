@@ -45,12 +45,9 @@
 
 	<br>
 	<!-- Need to add UI for this updated page and error checking -->
+	<BR><BR><BR><BR><BR><BR>
 	<section id="updatelist">
 	<a href="user_list.php" id="updatelist">Click here to see the updated user list</a>
-	</section>
-	<?php
-    include('../includes/footer.html');
-    ?>
 </body>
 
 </html>

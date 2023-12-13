@@ -49,13 +49,10 @@ mysqli_close($conn);
 
 <body>
     
-    <BR><BR>
+    <BR><BR><BR><BR><BR><BR>
     <section id="userlist">
     <a href="user_list.php" id="userlist" style="text-decoration: none;">Click here to see the user list</a>
     </section>
-    <?php
-    include('../includes/footer.html');
-    ?>
 </body>
 
 </html>

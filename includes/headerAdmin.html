@@ -14,32 +14,37 @@
 </head>
 
 <body>
-    <div class="outercontainer-nav">
-        <div class="container-logo">
-            <section></section>
-            <a href="../Admin/admin_page.php"><img src="../img/1.png" alt="Logo" id="img-logo"></a>
-        </div>
-
-        <div class="dropdown">
-            <button class="dropbtn-logo"><img src="../img/admin icon.png" alt="admin logo" width="400px">
-                <p>ADMIN</p>
-            </button>
-            <div class="dropdown-content">
-                <a href="../view_profile.php">Profile</a>
-                <a href="../login.html">Log Out</a>
+    <div class="header">
+        <div class="header-bar"></div>
+        <div class="outercontainer-nav">
+            <div class="container-logo">
+                <section></section>
+                <a href="../Student/student_page.php"><img src="../img/UTM-LOGO-FULL.png" alt="Logo" id="img-logo"></a>
+                <b>INTERNSHIP
+                MANAGEMENT
+                SYSTEM</b>
+            </div>
+    
+            <nav class="stroke">
+                <ul>
+                    <li><a href="../Admin/admin_page.php">Home</a></li>
+                    <li><a href="../Admin/user_list.php">User Management</a></li>
+                    <li><a href="../Coordinator/application_list.php">Student Applications</a></li>
+                    <!-- <li><a href="view student application.php">Report</a></li> -->
+                </ul>
+            </nav>
+            
+            <div class="dropdown">
+                <button class="dropbtn-logo"><img src="../img/admin icon.png" alt="admin logo" width="400px">
+                    <p>ADMIN</p>
+                </button>
+                <div class="dropdown-content">
+                    <a href="../view_profile.php">Profile</a>
+                    <a href="../login.html">Log Out</a>
+                </div>
             </div>
         </div>
-    </div>
-
-    <nav class="stroke">
-        <ul>
-            <li><a href="../Admin/admin_page.php">Home</a></li>
-            <li><a href="../Admin/user_list.php">User Management</a></li>
-            <li><a href="../Coordinator/application_list.php">Student Applications</a></li>
-            <!-- <li><a href="view student application.php">Report</a></li> -->
-        </ul>
-    </nav>
-
+        </div>
 </body>
 
 </html>

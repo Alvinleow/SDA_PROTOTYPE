@@ -13,7 +13,7 @@
     <?php
     include('../includes/headerAdmin.html');
     ?>
-    <div class="container my-5">
+    <div class="container" style="padding-top: 183px; margin-bottom: 48px;">
         <h2 style="text-align:center; font-weight: bold">New User</h2>
         <form method="post" action="add_user.php">
             <div class="row mb-3">

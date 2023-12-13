@@ -16,7 +16,7 @@
     include('../includes/headerStudent.html');
     ?>
 
-    <div class="container my-5">
+    <div class="container" style="padding-top: 183px; margin-bottom: 48px;">
         <h2 style="text-align:center; font-weight:bold">Student Application List</h2>
         <p style="text-align:center; font-weight:bold"><i>Students Can Only View their own Applications</i></p>
         <a class="btn btn-primary" href="student_application_form.php" role="button">New Application</a>

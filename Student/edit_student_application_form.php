@@ -59,7 +59,8 @@ $address = $row["address"];
     }
     ?>
 
-    <h1 style="text-align: center; margin-top: 50px;">Edit Application of Internship Session</h1>
+    <div class="container" style="padding-top: 183px; margin-bottom: 48px;">
+    <h1 style="text-align: center;">Edit Application of Internship Session</h1>
     <label style="display: block; text-align: end;">
         <b>Date :</b>
         <input id="remove-border" style="font-size:15px; font-weight: bold;" type="text" name="applicationdate"
@@ -67,8 +68,7 @@ $address = $row["address"];
             echo date("d-M-Y"); ?>"
             readonly />
     </label>
-
-    <div class="container my-5">
+    <br><br>
         <h2>Personal Information</h2>
         <form method="post"
             action="edit_student_application.php?app_id=<?php echo $app_id; ?>&userlevel=<?php echo $userlevel; ?>&column=<?php echo $column; ?>">

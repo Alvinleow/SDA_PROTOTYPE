@@ -21,7 +21,7 @@
     <?php
     include('../includes/headerCoordinator.html');
     ?>
-    <div class="container my-5">
+    <div class="container" style="padding-top: 183px; margin-bottom: 48px;">
         <h2 style="text-align:center; font-weight:bold">Pending Application List</h2>
         <p style="text-align:center; font-weight:bold"><i>Pending List Only Accessible to Coordinators</i></p>
         <a class="btn btn-primary" href="sorted_pending_list.php" role="button">Sort List by Date</a>

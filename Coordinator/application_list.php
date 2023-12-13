@@ -31,7 +31,7 @@
         include('../includes/headerStudent.html');
     }
     ?>
-    <div class="container my-5">
+    <div class="container" style="padding-top: 183px; margin-bottom: 48px;">
         <h2 style="text-align:center; font-weight:bold">Full Application List</h2>
         <p style="text-align:center; font-weight:bold"><i>Full List Only Accessible to Admins and Coordinators</i></p>
         <p><i>Sorted by User ID</i></p>
